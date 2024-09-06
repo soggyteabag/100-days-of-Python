@@ -1,0 +1,13 @@
+Using Replits 100 days of free coding course I'll be sharing some code I have written using their lessons
+
+Concatenate 
+
+print("== My Recipe dish ==")
+food = input("Name a food you like: ")
+plant = input("Name a plant you like: ")
+cooking = input("Name a method of cooking: ")
+burned = input("Name a word to describe burnt: ")
+item = input("Name an item: ")
+
+print()
+print(cooking, food, "with", burned, plant, "on a bed of", item)
