@@ -1,0 +1,22 @@
+name = input("Whats your name? ").strip().title()
+
+# Remove the whitespace from the str
+name = name.strip()
+
+# Capitalize users name
+name = name.capitalize()
+
+name = name.title()
+# adds capitals to beginning of each word
+
+# We can chain these functions together
+name = name.strip().title()
+
+# Split the users name into first and last name
+first, last = name.split(" ")
+
+print(f"hello, {first})
+
+print(f"hello, {name}") 
+# f is a function inside we need this to add a string to text output
+
