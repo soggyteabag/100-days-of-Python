@@ -1,3 +1,4 @@
+1) 
 
 name = input("What's your name?")
 if name == "Tom" or name == "Dan":
@@ -5,3 +6,24 @@ if name == "Tom" or name == "Dan":
   print("You smell") 
 else:
   print("Hello " + name)
+
+2)
+
+print("Hello, Welcome to your daily affirmation generator.")
+name = input("What is your name? ")
+
+if name == "Tom" or name == "tom":
+  DOW = input("What is the day of the week? ")
+  if DOW == "Monday" or DOW == "Tuesday":
+    print("Unlucky," , name , "you have to work today.")
+  elif DOW == "Friday" or DOW == "Saturday":
+      print("Get the beers in, " , name, "It's party time! ")
+
+elif name == "Dan" or name == "dan":
+  DOW = input("What is the day of the week? ")
+  if DOW == "Monday" or DOW == "Tuesday" or DOW == "Wednesday" or DOW == "Thursday":
+    print("Shit out of luck," , name, "Better luck next time!")
+  elif DOW == "Friday" or DOW == "Saturday":
+      print("LET'S HAVE IT, ", name, "PARTY TIME!")
+else:
+  print("I don't know you, but you're probably having a horrific time!")
